@@ -1,0 +1,307 @@
+<!DOCTYPE html>
+<html lang="en"> 
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Assignment2</title>
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+
+
+<style> 
+   
+           .bagpack2 {  background-color: rgb(253, 252, 252);}
+         .bagpack2 img{ width:200px;
+                   }
+        .bagpack1 {background-color: rgb(253, 252, 252);
+                   height:400px;
+                   
+                   }
+        .overlap {width: 100px;}
+        .bag-btn {background-color:rgb(9, 9, 80)}
+
+        .relative1 {position:relative;
+                     width: 50px;
+                     height: 200px;
+            }
+        .relative1 img {width:300px;}
+        .absolute1 {position:absolute;
+            top: 25px;
+          right: 20;
+          width: 10px;
+          height: 10px;}
+        .absolute1 img {width: 280px;}
+        .token1 img {width:90px;
+                      padding:15px;}
+          
+        .token-text {padding-top:13px;}
+                    
+        .bag-border {border-radius: 15px;}
+        .shop-banner img {width:540px;
+                          padding-left:20px;}
+         .bag-footer {background-color:white;
+                         border:0}
+            
+        .bag-card img {background-color:rgb(243, 243, 243);
+            border-radius:10px;
+            }
+        .bag-card1 {border-radius:10px;
+                    border:0;}
+     .shopping-cart img{width:20px;
+      background-color: rgba(8, 8, 133, 0.966);}
+      .shopping-cart { background-color: rgba(8, 8, 133, 0.966);}
+
+      .bag-footer1 {border-radius:15px ;}
+        
+         
+       
+</style>
+</head>
+<body>
+    <header class=" container  " >
+    
+        <nav class=" bagpack2  navbar navbar-expand-lg navbar-light ">
+            <div class="container-fluid"> 
+              <a class="navbar-brand" href="#"> <img src="logos/Logo.png"></a>
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div style="font-family:Georgia, 'Times New Roman', Times, serif;font-size: medium;"class="collapse navbar-collapse flex-row-reverse" id="navbarNav">
+                <ul class="navbar-nav">
+                  <li class="nav-item">
+                    <a class="nav-link" aria-current="page" href="#">Home</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#">Product</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#">About us</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link " href="#" >Contact Us</a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </nav>
+
+          <div class=" bagpack1 p-2">
+          <div class="row d-flex align-items-center  ">
+            <div class="col-md-7 ">
+              <h1 style="padding-top:30px;font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;">
+                BACKPACK <br> <span style="color:green"><b>MOON </b></span></h1>
+              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                 
+              <div >
+                <button class="btn text-white shopping-cart " type="button">
+                  <img src="Logos/shopping-cart.png"><span class="ps-2">Buy Now</span></button>
+              </div>
+            </div>
+            <div class="col-md-5 ">
+                <div class="relative1">
+                    <img src="logos/green.png" >
+               
+            <div class="absolute1">
+                <img src="Photos/image 4.png"  alt="...">
+            </div> 
+          </div>
+              
+        </div>   
+            </div>
+          </div>
+        
+    </header>
+
+    <main class="container mt-5" >
+        <section>
+            <div class="row">
+                <div class="col-md-5 token1">
+
+               <div class=" d-flex shadow bag-border align-items-center ">
+                   <div class="token1-1">
+                   <img src="logos/image 12.png">
+                    </div>
+                 <div class="token1-2 ps-3  token-text">
+                    <h5>Find the Perfect Fit</h5>
+                    <p><small>Everybody is different, which is why we
+                     offer styles for every body</small> </p> 
+                </div>
+               </div>
+
+               <div class=" d-flex shadow mt-3 bag-border align-items-center ">
+                <div class="token1-1">
+                <img src="logos/image 13.png">
+                 </div>
+              <div class="token1-2 ps-3 token-text">
+                <h5>Find the Perfect Fit</h5>
+                <p><small>Everybody is different, which is why we
+                 offer styles for every body</small> </p>  
+             </div>
+            </div>
+
+
+            <div class=" d-flex shadow mt-3 bag-border align-items-center">
+                <div class="token1-1">
+                <img src="logos/image 14.png">
+                 </div>
+              <div class="token1-2 ps-3 token-text">
+                <h5>Find the Perfect Fit</h5>
+                <p><small>Everybody is different, which is why we
+                 offer styles for every body</small> </p>  
+             </div>
+            </div>
+               
+          </div>
+
+             <div class="col-md-7 shop-banner">
+            <img src="Logos/XMLID 1.png">
+             </div>
+         </div>
+            </section>
+
+        <section class="container mt-5" > <!--Card-->
+            <h1 style="padding-bottom: 12px;color:rgb(6, 24, 104) ;font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;" >
+              CASUAL BACKPACK</h1>
+
+            <div class="row row-cols-1 row-cols-md-3 g-4 bag-card">
+                <div class="col ">
+                  <div class="card h-100 bag-card1 shadow p-3 ">
+                    <img src="Photos/pngwing 1.png" class="card-img-top bag-magin " alt="...">
+                    <div class="card-body p-0">
+                      <h5 class="card-title pt-3">Nike Sportswear Hayward</h5>
+                      <p style="text-align: justify;" class="card-text ">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                    </div>
+                    <div class="card-footer bag-footer d-flex p-0 mt-4 justify-content-between align-items-center">
+                      <div class="p-0"><h4 class="text-muted ">$230</h4> </div>
+                      <div >
+                        <button class="btn text-white shopping-cart " type="button">
+                          <img src="Logos/shopping-cart.png"><span class="ps-2">Buy Now</span></button>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+            
+            <!--new-card-->
+            <div class="col ">
+              <div class="card h-100 bag-card1 shadow p-3 ">
+                <img src="Photos/image2.png" class="card-img-top bag-magin " alt="...">
+                <div class="card-body p-0">
+                  <h5 class="card-title pt-3">School backpack</h5>
+                  <p style="text-align: justify;" class="card-text ">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                </div>
+                <div class="card-footer bag-footer d-flex p-0 mt-4 justify-content-between align-items-center ">
+                  <div class="p-0"><h4 class="text-muted ">$230</h4> </div>
+                  <div >
+                    <button class="btn text-white shopping-cart " type="button">
+                      <img src="Logos/shopping-cart.png"><span class="ps-2">Buy Now</span></button>
+                  </div>
+                </div>
+              </div>
+            </div>
+            
+          <!--new-card-->
+          <div class="col ">
+            <div class="card h-100 bag-card1 shadow p-3 ">
+              <img src="Photos/image 16.png" class="card-img-top bag-magin " alt="...">
+              <div class="card-body p-0">
+                <h5 class="card-title pt-3">CityLite Security Backpack</h5>
+                <p style="text-align: justify;" class="card-text ">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+              </div>
+              <div class="card-footer bag-footer d-flex p-0 mt-4 justify-content-between align-items-center ">
+                <div class="p-0"><h4 class="text-muted ">$230</h4> </div>
+                <div >
+                  <button class="btn text-white shopping-cart " type="button">
+                    <img src="Logos/shopping-cart.png"><span class="ps-2">Buy Now</span></button>
+                </div>
+              </div>
+            </div>
+          </div>
+                
+              </div>
+          
+
+        </section>
+
+    <!--new section-->
+
+    <section class="container mt-5" > <!--Card-->
+      <h1 style="padding-bottom: 12px;color:rgb(6, 24, 104) ;font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;" >
+        TRAVEL BACKPACK</h1>
+
+      <div class="row row-cols-1 row-cols-md-3 g-4 bag-card">
+          <div class="col ">
+            <div class="card h-100 bag-card1 shadow p-3 ">
+              <img src="Photos/travel.png" class="card-img-top bag-magin " alt="...">
+              <div class="card-body p-0">
+                <h5 class="card-title pt-3">Travel Sport</h5>
+                <p style="text-align: justify;" class="card-text ">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+              </div>
+              <div class="card-footer bag-footer d-flex p-0 mt-4 justify-content-between align-items-center">
+                <div class="p-0"><h4 class="text-muted ">$230</h4> </div>
+                <div >
+                  <button class="btn text-white shopping-cart " type="button">
+                    <img src="Logos/shopping-cart.png"><span class="ps-2">Buy Now</span></button>
+                </div>
+              </div>
+            </div>
+          </div>
+      
+      <!--new-card-->
+      <div class="col ">
+        <div class="card h-100 bag-card1 shadow p-3 ">
+          <img src="Photos/pngwing 2.png" class="card-img-top bag-magin " alt="...">
+          <div class="card-body p-0">
+            <h5 class="card-title pt-3">Jack Wolfskin West Highland</h5>
+            <p style="text-align: justify;" class="card-text ">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+          </div>
+          <div class="card-footer bag-footer d-flex p-0 mt-4 justify-content-between align-items-center ">
+            <div class="p-0"><h4 class="text-muted ">$230</h4> </div>
+            <div >
+              <button class="btn text-white shopping-cart " type="button">
+                <img src="Logos/shopping-cart.png"><span class="ps-2">Buy Now</span></button>
+            </div>
+          </div>
+        </div>
+      </div>
+      
+    <!--new-card-->
+    <div class="col ">
+      <div class="card h-100 bag-card1 shadow p-3 ">
+        <img src="Photos/pngwing 3.png" class="card-img-top bag-magin " alt="...">
+        <div class="card-body p-0">
+          <h5 class="card-title pt-3">Hiking Trekking Bag Camping</h5>
+          <p style="text-align: justify;" class="card-text ">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+        </div>
+        <div class="card-footer bag-footer d-flex p-0 mt-4 justify-content-between align-items-center ">
+          <div class="p-0"><h4 class="text-muted ">$230</h4> </div>
+          <div >
+            <button class="btn text-white shopping-cart " type="button">
+              <img src="Logos/shopping-cart.png"><span class="ps-2">Buy Now</span></button>
+          </div>
+        </div>
+      </div>
+    </div>
+          
+        </div>
+    
+
+  </section>
+
+  <sectoin style="height:300px ;background-color: rgb(235, 188, 211);"
+   class=" container mt-3  bag-footer1 d-flex justify-content-center align-items-center ">
+    <div>
+      <h1>LET'S STAY IN TOUCH</h1>
+      <h6>Get updates on sales, specials and more</h6>
+      <input type="text" placeholder="enter your mail">
+      <button class="btn panda-btn bag-btn text-white">submit</button>
+    </div>
+  </sectoin>
+    </main>
+<section class="container  mt-3">
+<footer class="bag-footer1" style="text-align: center; padding:50px; background-color: rgb(240, 233, 233);" >
+  Contact With Us. 31 Berlin, Germany</footer>
+
+</section>
+    <script src="js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
