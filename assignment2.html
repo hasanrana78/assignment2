@@ -52,12 +52,40 @@
       .shopping-cart { background-color: rgba(8, 8, 133, 0.966);}
 
       .bag-footer1 {border-radius:15px ;}
+
+
+      @media (max-width:668px) {.rose1 {display:grid;
+                     width:450px;
+                     padding-top: 60px;
+                  grid-template-columns: repeat(1,1fr);
+                  
+                  margin: auto;
+                  place-items: center;}}  
+       @media (max-width:668px) {.rose2 img {display:grid;
+                     width:400px;
+                     padding-top: 20px;
+                     padding-right: 25px;
+                  grid-template-columns: repeat(1,1fr);
+                  place-items: center; }}
+
+       @media (max-width:992px) {.rose1 {display:grid;
+                     width:600px;     
+                     padding-top: 75px;
+                  grid-template-columns: repeat(1,1fr);
+                  margin-top: 50px;
+                  margin: auto;
+                  place-items: center;}} 
+            
+          @media (max-width:992px) {.rose2 img {
+                     padding-top: 20px;
+                     margin-top: 20px;
+                  place-items: center; }}
         
          
        
 </style>
 </head>
-<body>
+<body  >
     <header class=" container  " >
     
         <nav class=" bagpack2  navbar navbar-expand-lg navbar-light ">
@@ -97,7 +125,7 @@
                   <img src="Logos/shopping-cart.png"><span class="ps-2">Buy Now</span></button>
               </div>
             </div>
-            <div class="col-md-5 ">
+            <div class="col-md-5  ">
                 <div class="relative1">
                     <img src="logos/green.png" >
                
@@ -112,10 +140,10 @@
         
     </header>
 
-    <main class="container mt-5" >
-        <section>
-            <div class="row">
-                <div class="col-md-5 token1">
+    <main class="container mt-5 " > 
+        <section ">
+            <div class="row ">
+                <div class="col-md-5 token1 rose1">
 
                <div class=" d-flex shadow bag-border align-items-center ">
                    <div class="token1-1">
@@ -153,7 +181,7 @@
                
           </div>
 
-             <div class="col-md-7 shop-banner">
+             <div class="col-md-7 rose2 shop-banner">
             <img src="Logos/XMLID 1.png">
              </div>
          </div>
